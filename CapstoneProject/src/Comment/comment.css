@@ -1,0 +1,49 @@
+.c-wrapper{
+    padding: 100px 0;
+    background-color: #0031AE12;
+    padding-bottom: 300px;
+  }
+  
+  .c-details{
+    text-align: center;
+  }
+  
+  .c-customer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  .c-row{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+  }
+  .customer{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 4px 4px rgba(200, 200, 200, 0.5);
+  
+  }
+  .customer>:first-child{
+    display: flex;
+    gap: 20px;
+  }
+  .customer-name{
+    font-size: 14px;
+  }
+  .customer-desc,.date{
+    font-size: 11px;
+  }
+  .stars{
+    color: #0031AE;
+  }
+  
+  
+  .stars>:last-child{
+    color: #C9C9C9;
+  }
