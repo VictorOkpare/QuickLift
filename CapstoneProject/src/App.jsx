@@ -13,10 +13,11 @@ function App() {
   return (
     <>
      <Header/>     
-     <About/>
+     
      <Comment/>
      <Download/>
      <Footer/>
+     <About/>
 
     </>
   )
