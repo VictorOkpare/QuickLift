@@ -4,6 +4,8 @@ import Footer from "./Footer/Footer.jsx"
 import Comment from "./Comment/comment.jsx"
 import Download from './Download/download.jsx'
 
+import How from "./How/how.jsx"
+
 
 
 function App() {
@@ -11,7 +13,9 @@ function App() {
 
   return (
     <>
-     <Header/>     
+     <Header/>  
+  
+     <How/>  
      <Comment/>
      <Download/>
      <Footer/>
