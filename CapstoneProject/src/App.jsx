@@ -17,16 +17,12 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
-     <Header/>
-     <Hero/>     
-=======
 
+     <Header/>
+     <Hero/>
      <Header/>  
       <How/>  
       <About/>
-
->>>>>>> 8fd3a9f9850ece2f3d827b32351ee23f25e7b7fd
      <Comment/>
      <Download/>
      <Footer/>
