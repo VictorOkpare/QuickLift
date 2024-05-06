@@ -1,0 +1,71 @@
+.a-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+
+}
+.image1{
+    width: 527px;
+    height: 473px; 
+    position:absolute;
+}
+.image2>img{
+    width: 357px;
+    height: 301px;
+    position: relative;
+    margin-top: 86px;
+}
+.textcontainer{
+    width: 700px;
+    padding-bottom : 50px;
+}
+.about-txt{
+    color: #0031AE;
+    font-size: 26px;
+    font-weight: 600;
+}
+.txt-container{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.spantext{
+   display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.stj{
+    font-size: 14px;
+    font-weight: 500;
+}
+.spanctn{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0031AE;
+}
+.btn{
+    color: #0031AE;
+    font-weight: 700;
+    background-color: transparent;
+    border-color: #0031AE;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn:hover::after{
+    border: #0031AE;
+    transition: 0.5s;
+}
+.circle{
+    color: #0031AE;
+    gap: 11px;
+}
+.spn{
+    color: black;
+}
+
+
+
+
