@@ -3,7 +3,8 @@ import Header from "./Header/Header.jsx"
 import Footer from "./Footer/Footer.jsx"
 import Comment from "./Comment/comment.jsx"
 import Download from './Download/download.jsx'
-import Memories from './Memories/Memories.jsx'
+import SignUp from "./SignUp/sign-up.jsx"
+
 import How from "./How/how.jsx"
 
 
@@ -14,7 +15,7 @@ function App() {
   return (
     <>
      <Header/>  
-     {/* <Memories/>  */}
+     <SignUp/> 
      <How/>  
      <Comment/>
      <Download/>
