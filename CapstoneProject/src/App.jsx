@@ -21,10 +21,8 @@ function App() {
     <>
      <Header/>
      <Hero/>
-   
       <How/>  
       <About/>
-
      <Comment/>
      <Download/>
      <Footer/>
