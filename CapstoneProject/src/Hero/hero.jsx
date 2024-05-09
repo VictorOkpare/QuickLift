@@ -4,7 +4,7 @@ function Hero() {
     <div className="hero-wrapper">
       <div className="hero-container">
         <div className="light" />
-        <img src="../assets/images/about-1.jpeg" alt="" />
+       
         <div className="hero-ctn">
           <div className="hero-time">24/7 Online Cab Booking Service</div>
           <div className="hero-details">
@@ -12,15 +12,13 @@ function Hero() {
               Enjoy Comfortable Trips
               <br /> With Quicklift
             </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-              gravida <br /> quis nisl ut semper. Quisque nibh orci. Lorem ipsum
-              dolor sit amet,
+            <p className="hero-detailsPara">
+            QuickLift offers comfortable rides that get you there fast, all at affordable prices. Book your ride with a few taps and enjoy a hassle-free journey. Download QuickLift today and experience the difference!
             </p>
           </div>
           <div className="hero-button">
-            <button className="button">DOWNLOAD APP</button>
-            <button className="button">LEARN MORE</button>
+            <button className="button button1">DOWNLOAD APP</button>
+            <button className="button button2">LEARN MORE</button>
           </div>
         </div>
       </div>

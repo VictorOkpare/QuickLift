@@ -3,6 +3,7 @@ import Footer from "./Footer/Footer.jsx"
 import Comment from "./Comment/comment.jsx"
 import Download from './Download/download.jsx'
 import Hero from './Hero/hero.jsx'
+import SignUp from './SignUp/sign-up.jsx'
 
 import About from './About/About.jsx'
 
@@ -20,9 +21,10 @@ function App() {
     <>
      <Header/>
      <Hero/>
-      <How/>  
-      <About/>
-     <Comment/>
+     <About/>
+      <SignUp/>  
+      <How/>
+      <Comment/>
      <Download/>
      <Footer/>
     

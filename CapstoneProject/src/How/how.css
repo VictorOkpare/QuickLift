@@ -1,5 +1,5 @@
 .how-wrapper{
-  padding: 80px 10px, 0px 0px;
+  padding: 10px 0;
 }
 .how-container{
   display: flex;
@@ -72,4 +72,28 @@
 }
 .darkBlue{
   color: #0031AED9;
+}
+@media screen and (max-width: 767px){
+  .how-container{
+    flex-direction:column;
+    
+  }
+  .how-content{
+    align-self: center;
+    width: 300px;
+  
+   text-align: center;
+   gap: 0px;
+
+  }
+  .how-left>img{
+width: 470px;
+  }
+  .image-ctn{
+    align-self: center;
+   
+  }
+  .row{
+    flex-direction: column;
+  }
 }
