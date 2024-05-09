@@ -1,8 +1,8 @@
 import "./sign-up.css";
-import bigImage from "../assets/images/bigimage.png";
-import antoella from "../assets/images/one.png";
-import mabu from "../assets/images/two.png";
-import swift from "../assets/images/three.png";
+import bigImage from '../assets/images/bigimage.png'
+import antoella from '../assets/images/antonella.png' 
+import mabu from '../assets/images/mabu.jpg'
+import swift from '../assets/images/shift.png'
 
 function SignUp() {
   return (
@@ -16,6 +16,7 @@ function SignUp() {
           <div className="s-left">
             <div className="ctn">
               <div className="design" />
+<<<<<<< HEAD
               <h3>We offer fair fares for trips</h3>
               <p>
                 
@@ -47,6 +48,32 @@ You can expect transparent, competitive pricing without hidden costs.
                 allowing you to explore new destinations without overspending.
 
               </p>
+=======
+                <h3>We offer fair fares for trips</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing
+                  <br />
+                  elit. Ut gravida quis nisl ut semper. Quisque nibh
+                </p>
+            </div>
+            <div className="ctn">
+              <div className="design" />
+                <h3>We offer fair fares for trips</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing
+                  <br />
+                  elit. Ut gravida quis nisl ut semper. Quisque nibh
+                </p>
+            </div>
+            <div className="ctn">
+              <div className="design" />
+                <h3>We offer fair fares for trips</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing
+                  <br />
+                  elit. Ut gravida quis nisl ut semper. Quisque nibh
+                </p>
+>>>>>>> origin/dev
             </div>
           </div>
           <left className="s-right">
@@ -69,7 +96,9 @@ You can expect transparent, competitive pricing without hidden costs.
             </div>
           </left>
         </div>
-        <span className="sign-btn">Sign Up to Drive</span>
+        <span className="sign-btn">
+          Sign Up to Drive
+        </span>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import "./Footer.css";
+import "./footer.css";
 import { CiSearch } from "react-icons/ci";
 
 function Footer() {
@@ -20,7 +20,7 @@ function Footer() {
           </div>
         </div>
         <div className="f-ctn">
-          <h5 className="f-head">Quick Lift</h5>
+          <h3 className="f-head">Quick Lift</h3>
           <p className="address">
             Plot 1210, <br />
             Water corporation drive <br />
@@ -30,7 +30,7 @@ function Footer() {
           </p>
         </div>
         <div className="f-ctn">
-          <h5 className="f-head">PARTNER WITH US</h5>
+          <h3 className="f-head">PARTNER WITH US</h3>
           <div className="list">
             <span>Sign up as a driver</span>
             <span>Fleets</span>
@@ -39,7 +39,7 @@ function Footer() {
           </div>
         </div>
         <div className="f-ctn">
-          <h5 className="f-head">COMPANY</h5>
+          <h3 className="f-head">COMPANY</h3>
           <div className="list">
             <span>About Us</span>
             <span>Contact</span>

@@ -7,16 +7,17 @@ import Hero from './Hero/hero.jsx'
 import About from './About/About.jsx'
 import How from "./How/how.jsx"
 
+
 function App() {
   
   return (
     <>
      <Header/>
      <Hero/>
-     <SignUp/> 
-     <How/>  
-      <About/>
-     <Comment/>
+     <About/>
+      <SignUp/>  
+      <How/>
+      <Comment/>
      <Download/>
      <Footer/>
    

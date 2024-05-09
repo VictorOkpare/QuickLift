@@ -8,6 +8,7 @@ import superman from '../assets/images/superman.png'
 import tems from '../assets/images/tems.png'
 import { FaStar } from "react-icons/fa6";
 
+
 function Comment() {
   return (
   
@@ -23,7 +24,7 @@ function Comment() {
             </div>
             <div className="c-customer">
               <div className="c-row">
-                <div className="customer">
+                <div className="customer ">
                   <div>
                     <img src={gabriella} alt="" />
                     <h4 className="customer-name"> Gabrielle Union</h4>
@@ -96,7 +97,7 @@ function Comment() {
                   </span>
                 </div>
               </div>
-              <div className="c-row">
+              <div className="c-row c-row2">
                 <div className="customer">
                   <div>
                     <img src={tems} alt="" />
@@ -173,3 +174,5 @@ function Comment() {
 }
 
 export default Comment
+
+

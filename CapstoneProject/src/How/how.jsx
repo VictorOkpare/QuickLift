@@ -23,9 +23,9 @@ function How(){
             <div className="row">
               <div className="how-content">
                 <div className="image-ctn">
-                  <img src={car} alt="" />
+                  <img src={blue} alt="" />
                   <div className="inner-img">
-                  {/* <img src={car} alt="" /> */}
+                  <img src={car} alt="" />
                   </div>
                 </div>
                 <h4>Set Destination</h4>
@@ -40,7 +40,7 @@ function How(){
                 <div className="image-ctn">
                 <img src={red} alt="" />  
                   <div className="inner-img">
-                  {/* <FaRegCompass className='how-icon red'/> */}
+                  <FaRegCompass className='how-icon red'/>
                   </div>
                 </div>
                 <h4>Explore the Ride</h4>
@@ -57,7 +57,7 @@ function How(){
                 <div className="image-ctn">
                 <img src={yellow} alt="" />  
                   <div className="inner-img">
-                  {/* <FaLocationDot className='how-icon yellow'/> */}
+                  <FaLocationDot className='how-icon yellow'/>
                   </div>
                 </div>
                 <h4>Track Journey</h4>
@@ -71,7 +71,7 @@ function How(){
                   <div className="image-ctn">
                     <img src={darkBlue} alt="pay your" />  
                     <div className="inner-img">
-                    {/* <IoCard className='how-icon darkBlue'/> */}
+                    <IoCard className='how-icon darkBlue'/>
                   </div>
                 </div>
                 <h4>Simple Payment</h4>
