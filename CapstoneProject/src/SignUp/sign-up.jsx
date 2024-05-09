@@ -16,7 +16,7 @@ function SignUp() {
           <div className="s-left">
             <div className="ctn">
               <div className="design" />
-<<<<<<< HEAD
+
               <h3>We offer fair fares for trips</h3>
               <p>
                 
@@ -48,32 +48,7 @@ You can expect transparent, competitive pricing without hidden costs.
                 allowing you to explore new destinations without overspending.
 
               </p>
-=======
-                <h3>We offer fair fares for trips</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  <br />
-                  elit. Ut gravida quis nisl ut semper. Quisque nibh
-                </p>
-            </div>
-            <div className="ctn">
-              <div className="design" />
-                <h3>We offer fair fares for trips</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  <br />
-                  elit. Ut gravida quis nisl ut semper. Quisque nibh
-                </p>
-            </div>
-            <div className="ctn">
-              <div className="design" />
-                <h3>We offer fair fares for trips</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  <br />
-                  elit. Ut gravida quis nisl ut semper. Quisque nibh
-                </p>
->>>>>>> origin/dev
+
             </div>
           </div>
           <left className="s-right">
