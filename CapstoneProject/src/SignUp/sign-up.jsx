@@ -1,15 +1,8 @@
 import "./sign-up.css";
-<<<<<<< HEAD
-import bigImage from '../assets/images/Rec3.png'
+import bigImage from '../assets/images/bigimage.png'
 import antoella from '../assets/images/antonella.png' 
 import mabu from '../assets/images/mabu.jpg'
 import swift from '../assets/images/shift.png'
-=======
-import bigImage from "../assets/images/bigimage.png";
-import antoella from "../assets/images/one.png";
-import mabu from "../assets/images/two.png";
-import swift from "../assets/images/three.png";
->>>>>>> f4caf91eca98137f2874c961950442a9bafc1737
 
 function SignUp() {
   return (
@@ -23,7 +16,6 @@ function SignUp() {
           <div className="s-left">
             <div className="ctn">
               <div className="design" />
-<<<<<<< HEAD
                 <h3>We offer fair fares for trips</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -48,32 +40,6 @@ function SignUp() {
                   <br />
                   elit. Ut gravida quis nisl ut semper. Quisque nibh
                 </p>
-=======
-              <h3>We offer fair fares for trips</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                <br />
-                elit. Ut gravida quis nisl ut semper. Quisque nibh
-              </p>
-            </div>
-            <div className="ctn">
-              <div className="design" />
-              <h3>We offer fair fares for trips</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                <br />
-                elit. Ut gravida quis nisl ut semper. Quisque nibh
-              </p>
-            </div>
-            <div className="ctn">
-              <div className="design" />
-              <h3>We offer fair fares for trips</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                <br />
-                elit. Ut gravida quis nisl ut semper. Quisque nibh
-              </p>
->>>>>>> f4caf91eca98137f2874c961950442a9bafc1737
             </div>
           </div>
           <left className="s-right">
@@ -96,13 +62,9 @@ function SignUp() {
             </div>
           </left>
         </div>
-<<<<<<< HEAD
         <span className="sign-btn">
           Sign Up to Drive
         </span>
-=======
-        <span className="sign-btn">Sign Up to Drive</span>
->>>>>>> f4caf91eca98137f2874c961950442a9bafc1737
       </div>
     </div>
   );
