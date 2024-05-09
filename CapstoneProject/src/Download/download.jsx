@@ -2,7 +2,7 @@ import "./download.css";
 import phone2 from '../assets/images/iphone2.png' 
 import appStore from '../assets/images/apple-store.png'
 import playstore from '../assets/images/playstore.png'
-import 'animate.css';
+// import 'animate.css';
 
 
 
