@@ -7,7 +7,6 @@ import Hero from './Hero/hero.jsx'
 import About from './About/About.jsx'
 
 
-import How from "./How/how.jsx"
 
 
 import How from "./How/how.jsx"
