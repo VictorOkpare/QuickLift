@@ -30,11 +30,10 @@ function How(){
                 </div>
                 <h4>Set Destination</h4>
                 <p>
-                Lorem ipsum dolor sit amet,
-                <br />consectetur adipiscing elit.Ut gravida 
-                <br /> quis nisl ut semper. Quisque nibh quis 
-                nisl ut semper. 
-                <br />Quisque nibhquis nislu semper. Quisque nibh
+                You can easily lock in your desired travel location,
+                <br /> ensuring a seamless journey from start to finish. 
+                <br /> Whether you have a specific city 
+                <br />or landmark in mind or simply want to explore a new region.
                 </p>
               </div>
               <div className="how-content">
@@ -46,8 +45,9 @@ function How(){
                 </div>
                 <h4>Explore the Ride</h4>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <br /> Ut gravida quis nisl ut semper. Quisque nibh quis nisl <br />ut semper. Quisque nibhquis nisl ut semper. Quisque nibh
+                Embrace the thrill of adventure and "Explore the Ride" with our exhilarating travel experiences. 
+                <br /> Whether you seek the rush of navigating winding roads through breathtaking landscapes 
+                <br />or the excitement of discovering new cultures and cuisines.
                 </p>
               </div>
             </div>
@@ -62,8 +62,9 @@ function How(){
                 </div>
                 <h4>Track Journey</h4>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <br /> Ut gravida quis nisl ut semper. Quisque nibh quis nisl <br />ut semper. Quisque nibhquis nisl ut semper. Quisque nibh
+                You can stay connected and informed every step of the way,
+                <br />From the moment you embark on your adventure until your safe return, 
+                <br />we provide real-time updates and tracking capabilities
                 </p>
               </div>
               <div className="how-content">
@@ -75,8 +76,9 @@ function How(){
                 </div>
                 <h4>Simple Payment</h4>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <br /> Ut gravida quis nisl ut semper. Quisque nibh quis nisl <br />ut semper. Quisque nibhquis nisl ut semper. Quisque nibh
+                We understand that travel planning can be stressful, 
+                <br /> which is why we've made the payment process
+                <br /> as simple and straightforward as possible. 
                 </p>
               </div>
             </div>

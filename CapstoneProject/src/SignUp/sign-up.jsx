@@ -18,27 +18,34 @@ function SignUp() {
               <div className="design" />
               <h3>We offer fair fares for trips</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                <br />
-                elit. Ut gravida quis nisl ut semper. Quisque nibh
+                
+We prioritize making travel affordable by offering fair fares for all our trips. 
+<br />
+You can expect transparent, competitive pricing without hidden costs. 
+
+
+                
+                
               </p>
             </div>
             <div className="ctn">
               <div className="design" />
               <h3>We offer fair fares for trips</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing
-                <br />
-                elit. Ut gravida quis nisl ut semper. Quisque nibh
+              At our company, we are committed to providing fair and
+              <br /> affordable pricing for all of our travel offerings.
+                
+                
               </p>
             </div>
             <div className="ctn">
               <div className="design" />
               <h3>We offer fair fares for trips</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing
+              We believe in making travel accessible to everyone by offering fair and reasonable fares for all our trips
                 <br />
-                elit. Ut gravida quis nisl ut semper. Quisque nibh
+                allowing you to explore new destinations without overspending.
+
               </p>
             </div>
           </div>
