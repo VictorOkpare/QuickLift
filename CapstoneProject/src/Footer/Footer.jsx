@@ -1,17 +1,14 @@
-import "./footer.css";
+import "./Footer.css";
 import { CiSearch } from "react-icons/ci";
 
 function Footer() {
   return (
-    <div className="f-wrapper">
+    <div className="f-wrapper" id="f-wrapper">
       <div className="f-container">
         <div className="f-ctn">
           <h2 id="f-header">Quick Lift</h2>
           <p>
-            Lorem Ipsum hddndn idtewu ioljl <br />
-            jdjdip Lorem Ipsum hddndn idtewu <br />
-            ioljl jdjdipLorem Ipsum hddndn <br />
-            idtewu ioljl jdjdip
+          Revolutionizing logistics with fast, reliable, and secure delivery solutions. Trust us to lift your business to new heights
           </p>
 
           <div className="f-search">

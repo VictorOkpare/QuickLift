@@ -2,7 +2,7 @@ import "./download.css";
 import phone2 from '../assets/images/iphone2.png' 
 import appStore from '../assets/images/apple-store.png'
 import playstore from '../assets/images/playstore.png'
-import 'animate.css';
+// import 'animate.css';
 
 
 
@@ -18,7 +18,7 @@ function Download() {
         <div className="right">
           <h2 className="d-whereHeader">Download the free mobile App</h2>
           <p className="d-wherePara">
-           Get the QuickLift App from your favorite appstore <br/>and enjo convenience at yuour fingertips.
+           Get the QuickLift App from your favorite appstore <br/>and enjoy convenience at your fingertips.
              
           </p>
           <div className="d-where">

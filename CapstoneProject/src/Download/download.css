@@ -26,14 +26,7 @@
 margin-top: -150px;
 
 }
-.d-where>img:hover{
-  cursor: pointer;
-  display: inline-block;
-  margin: 0 0.5rem;
 
-  animation: bounceOut; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 1s;
-}
 .phone2Image{
   height: 600px;
 }

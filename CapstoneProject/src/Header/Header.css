@@ -3,23 +3,47 @@
     color: white;
     display: flex;
     position: relative;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 5px;
    
-    z-index: 3;
+    z-index: 4;
+   
+  }
+  a{
+    text-decoration: none;
+    color: white;
+
+  }
+  a:hover{
+    color: #0031AE;
   }
   
+  .downloadbtn{
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .downloadbtn:hover{
+    background-color: #0031AE;
+    border:none;
+    transition: 0.4s;
+  }
   .h-logo{
     font-weight: 900;
     font-size: 2rem;
+    margin-left: 100px;
    
   }
   
   .h-nav{
     display: flex;
-    gap: 2rem;
+    gap: 1.2rem;
+    margin-right: 0px;
     font-weight: 500;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    padding-top: 4px;
   }
   
   .h-nav>span{
@@ -33,16 +57,33 @@
     padding: 10px 25px;
   }
   .hamburger{
+    /* border: none;
+    background-color: transparent; */
+
+    display: none; /* hide the hamburger menu by default */
     border: none;
     background-color: transparent;
+    cursor: pointer;
   }
   .hamburger-icon{
     display: none;
     font-size: 3rem;
     color: white;
+
+    
   }
+ 
+
+
   @media (max-width: 900px) {
-    .h-nav{
+    
+
+ 
+
+
+
+
+    /* .h-nav{
       width: 50%;
       flex-direction: column;
       position: absolute;
@@ -67,6 +108,94 @@
       width: 100%;
       scale: 1.1;
     }
+   */
+
+   .hamburger {
+    display: block; /* show the hamburger menu on smaller screens */
+    position: absolute;
+    top: 0.05rem;
+    right: 2rem;
+    z-index: 5;
+  }
+  .hamburger-icon {
+    display: block; /* show the hamburger icon on smaller screens */
+  }
+  .hamburger-icon:hover {
+    color: #0031AE; /* change the color of the hamburger icon on hover */
+  }
+  .hamburger.active {
+    transform: rotate(45deg); /* rotate the hamburger icon when the menu is open */
+  }
+  .hamburger.active .hamburger-icon {
+    color: #0031AE; /* change the color of the hamburger icon when the menu is open */
+  }
+  .h-nav {
+    width: 30%; /* make the navigation menu full width on smaller screens */
+    flex-direction: column;
+    position: absolute;
+    top: 6.3rem;
+    right: 40%;
+    margin-right: -330px;
+    background-color: rgba(12, 12, 12, 0.8);
+    transition: all 0.3s ease-in;
+    border-radius: 10px;
+   
+  }
+  .h-nav>span {
+    text-align: center;
+    font-size: 20px;
+  }
+  .h-nav>span:hover {
+    color: rgb(121, 121, 121);
+    background-color:#0031AE;
+    width: 50%;
+    scale: 0.9;
+    transition: 0.8s;
+  }
   
+  .h-nav>:last-child:hover{
+    background-color: transparent;
+  }
+  body{
+    overflow-x: hidden;
+  }
+
+}
+@media (max-width: 800px) {
+  .h-nav{
+    margin-right: -260px;
     
   }
+  body{
+    overflow-x: hidden;
+  }
+
+ 
+}
+@media (max-width: 600px){
+  body{
+    overflow-x: hidden;
+  }
+  .h-nav{
+    margin-right: -160px;
+    overflow: hidden;
+    
+  }
+  .h-nav>span {
+    text-align: center;
+    font-size: 14px;
+}
+.downloadbtn{
+  
+  font-size: 10px;
+  
+  font-weight: 900;
+}
+
+.h-nav>:last-child button{
+  border: 2px solid #0031AE;
+  border-radius: 20px;
+  align-self: center;
+  padding: 7px 13px;
+}
+}
